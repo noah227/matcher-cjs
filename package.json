@@ -1,0 +1,35 @@
+{
+    "name": "matcher-cjs",
+    "version": "1.0.0",
+    "description": "A CommonJS Version of matcher",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c rollup.config.js"
+    },
+    "keywords": [
+        "matcher",
+        "CommonJS",
+        "wildcard"
+    ],
+    "files": [
+        "dist/index.js"
+    ],
+    "repository": {
+        "url": "https://github.com/noah227/matcher-cjs"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^24.1.0",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.0.2",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.0",
+        "@types/node": "^20.11.25",
+        "matcher": "^5.0.0",
+        "rollup": "^3.23.0",
+        "tslib": "^2.5.2",
+        "typescript": "^5.0.4"
+    }
+}
